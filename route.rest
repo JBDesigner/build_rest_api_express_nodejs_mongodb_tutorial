@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/69341b2f5ca6d3eeb7e39d3b
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Billy Bob",
+    "subscribedToChannel": "Bob's Channel"
+}
+
+###
+DELETE http://localhost:3000/subscribers/693424340ac35649919a394e
+
+###
+PATCH http://localhost:3000/subscribers/693429988c4ee0d410e869a6
+Content-Type: application/json
+
+{
+    "name": "Updated Name"
+}
