@@ -72,22 +72,22 @@ Une API REST simple pour gérer des abonnés (subscribers), construite avec Expr
 
 #### Créer un abonné
 ```http
-POST http://localhost:4000/subscribers
+POST http://localhost:3000/subscribers
 Content-Type: application/json
 
 {
-    "name": "John Doe",
-    "subscribedToChannel": "Tech Channel"
+    "name": "JBDesigner",
+    "subscribedToChannel": "Web Developer"
 }
 ```
 
 #### Mettre à jour un abonné
 ```http
-PATCH http://localhost:4000/subscribers/:id
+PATCH http://localhost:3000/subscribers/:id
 Content-Type: application/json
 
 {
-    "name": "Nouveau Nom"
+    "name": "JBDesigner"
 }
 ```
 
@@ -118,3 +118,11 @@ Vous pouvez utiliser :
 ## 📄 Licence
 
 ISC
+
+## 👤 Auteur
+
+**Jimmy Brand**
+- GitHub: [@JBDesigner](https://github.com/JBDesigner)
+- LinkedIn: [Jimmy Brand](https://www.linkedin.com/in/jimmy-brand-4a1604256/)
+- Email: jimmybrand95@gmail.com
+- Portfolio: [https://jb-designer-porfolio.vercel.app/](https://jb-designer-porfolio.vercel.app/)
